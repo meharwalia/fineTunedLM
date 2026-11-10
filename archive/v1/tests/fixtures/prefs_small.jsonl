@@ -1,0 +1,20 @@
+{"id": "pref0", "prompt": "How do I boil an egg?", "chosen": "Happy to help! Short answer 0.", "rejected": "Whatever. 0 0 0 0", "source": "human"}
+{"id": "pref1", "prompt": "What is the capital of France?", "chosen": "Happy to help! Short answer 1.", "rejected": "Whatever. 1 1 1 1", "source": "rule"}
+{"id": "pref2", "prompt": "Can you explain photosynthesis?", "chosen": "Happy to help! Short answer 2.", "rejected": "Whatever. 2 2 2 2", "source": "hh-rlhf"}
+{"id": "pref3", "prompt": "Give me tips for sleeping better.", "chosen": "Happy to help! Short answer 3.", "rejected": "Whatever. 3 3 3 3", "source": "human"}
+{"id": "pref4", "prompt": "How do I learn Python quickly?", "chosen": "Happy to help! Short answer 4.", "rejected": "Whatever. 4 4 4 4", "source": "rule"}
+{"id": "pref5", "prompt": "What causes rain?", "chosen": "Happy to help! Short answer 5.", "rejected": "Whatever. 5 5 5 5", "source": "hh-rlhf"}
+{"id": "pref6", "prompt": "Write a polite email asking for an extension.", "chosen": "Happy to help! Short answer 6.", "rejected": "Whatever. 6 6 6 6", "source": "human"}
+{"id": "pref7", "prompt": "Why is the sky blue?", "chosen": "Happy to help! Short answer 7.", "rejected": "Whatever. 7 7 7 7", "source": "rule"}
+{"id": "pref8", "prompt": "How can I save money each month?", "chosen": "Happy to help! Short answer 8.", "rejected": "Whatever. 8 8 8 8", "source": "hh-rlhf"}
+{"id": "pref9", "prompt": "What is machine learning?", "chosen": "Happy to help! Short answer 9.", "rejected": "Whatever. 9 9 9 9", "source": "human"}
+{"id": "pref10", "prompt": "How do I boil an egg?", "chosen": "Happy to help! Short answer 10.", "rejected": "Whatever. 10 10 10 10", "source": "rule"}
+{"id": "pref11", "prompt": "What is the capital of France?", "chosen": "Happy to help! Short answer 11.", "rejected": "Whatever. 11 11 11 11", "source": "hh-rlhf"}
+{"id": "pref12", "prompt": "Can you explain photosynthesis?", "chosen": "Happy to help! Short answer 12.", "rejected": "Whatever. 12 12 12 12", "source": "human"}
+{"id": "pref13", "prompt": "Give me tips for sleeping better.", "chosen": "Happy to help! Short answer 13.", "rejected": "Whatever. 13 13 13 13", "source": "rule"}
+{"id": "pref14", "prompt": "How do I learn Python quickly?", "chosen": "Happy to help! Short answer 14.", "rejected": "Whatever. 14 14 14 14", "source": "hh-rlhf"}
+{"id": "pref15", "prompt": "What causes rain?", "chosen": "Happy to help! Short answer 15.", "rejected": "Whatever. 15 15 15 15", "source": "human"}
+{"id": "pref16", "prompt": "Write a polite email asking for an extension.", "chosen": "Happy to help! Short answer 16.", "rejected": "Whatever. 16 16 16 16", "source": "rule"}
+{"id": "pref17", "prompt": "Why is the sky blue?", "chosen": "Happy to help! Short answer 17.", "rejected": "Whatever. 17 17 17 17", "source": "hh-rlhf"}
+{"id": "pref18", "prompt": "How can I save money each month?", "chosen": "Happy to help! Short answer 18.", "rejected": "Whatever. 18 18 18 18", "source": "human"}
+{"id": "pref19", "prompt": "What is machine learning?", "chosen": "Happy to help! Short answer 19.", "rejected": "Whatever. 19 19 19 19", "source": "rule"}

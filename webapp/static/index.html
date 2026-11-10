@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fine-Tuning a Small Language Model for Technical Work with RLHF</title>
+  <link rel="stylesheet" href="/static/style.css?v=8">
+</head>
+<body>
+  <main class="wrap">
+    <header class="head">
+      <h1>Fine-Tuning a Small Language Model for Technical Work with RLHF</h1>
+    </header>
+
+    <section class="panel" aria-label="Ask a question">
+      <form id="form" novalidate>
+        <label for="prompt" class="label">Your question</label>
+        <textarea id="prompt" rows="3" maxlength="500" placeholder="Ask anything, e.g. “How do I politely decline an invitation?”"></textarea>
+        <div class="row-between">
+          <span id="count" class="muted small">0 / 500</span>
+        </div>
+
+        <div class="label small-label">Try an example <span id="ex-caption" class="muted small" hidden>· Selected examples</span></div>
+        <div id="chips" class="chips" role="list" aria-label="Example questions"></div>
+
+        <div class="actions">
+          <button id="compare" type="submit" class="btn">Compare</button>
+        </div>
+      </form>
+    </section>
+
+    <div id="banner" class="banner" role="alert" hidden></div>
+
+    <section class="cards" aria-label="Results">
+      <article class="card" id="card-base" aria-live="polite" aria-busy="false">
+        <h2>Original model</h2>
+        <div class="card-body" data-body></div>
+      </article>
+      <article class="card" id="card-tuned" aria-live="polite" aria-busy="false">
+        <h2>After RLHF (REINFORCE)</h2>
+        <div class="card-body" data-body></div>
+      </article>
+    </section>
+  </main>
+  <script src="/static/app.js?v=8"></script>
+</body>
+</html>

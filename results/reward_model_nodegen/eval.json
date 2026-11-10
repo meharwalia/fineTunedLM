@@ -1,0 +1,18 @@
+{
+  "n": 60,
+  "accuracy": 1.0,
+  "accuracy_by_type": {
+    "ste_vs_hardneg": 1.0,
+    "ste_vs_original": 1.0
+  },
+  "margin_mean": 14.936736106872559,
+  "margin_std": 4.297783851623535,
+  "margin_min": 4.469054698944092,
+  "margin_max": 22.48600959777832,
+  "margin_mean_by_type": {
+    "ste_vs_hardneg": 20.407236099243164,
+    "ste_vs_original": 13.842637062072754
+  },
+  "train_reward_mean": -1.1199469566345215,
+  "train_reward_std": 8.537796974182129
+}

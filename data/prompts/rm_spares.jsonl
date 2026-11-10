@@ -1,0 +1,50 @@
+{"id": "hs2_7863", "prompt": "We are working on an application that manages campaigns. Campaigns work by including NFC objects that are used be people all over the world and forwarding users to a configurable url when they scan the object. Please write a concept for analytics and KPIs that will be meaningful to campaign managers. Examples for KPIs are \"number of scans in a certain timeframe\", \"locations of the scans\" ", "hs2_row": 7863}
+{"id": "hs2_5410", "prompt": "can you  explain autoencoder with some visual represention?", "hs2_row": 5410}
+{"id": "hs2_14302", "prompt": "Dots. Delight your members Create custom automation flows without knowing how to code. For example, you can create a step-by-step onboarding flows, and point your members to relevant sources based on their interests Our no-code flow builder is like Zapier but for communities. can you dive deep on that? Also can you write about spatial canvas as a main solutiion for no code", "hs2_row": 14302}
+{"id": "hs2_15862", "prompt": "Due to the recent earthquake in turkey, please give me examples of countries within Africa that are prone to such earthquakes and how countries can best prepare themselves for such disasters?", "hs2_row": 15862}
+{"id": "hs2_10252", "prompt": "What are some good problem set questions that are multiple choice to test graduate students' knowledge of epilepsy drugs?", "hs2_row": 10252}
+{"id": "hs2_7335", "prompt": "What is a nation?", "hs2_row": 7335}
+{"id": "hs2_10805", "prompt": "The problem can be formulated in a mathematical way. Given a graph G of n vertices, We can represent the graph by the adjacent matrix, where if there is an edge from vertex vi to vertex vj we have Gij = 1, otherwise, we set Gij = 0. We define a transition matrix M, where Mij is the transition probability of jumping from vertex vi to vertex vj. Because the probability sums to 1, we need to normalize M so that each row of M sums to 1.", "hs2_row": 10805}
+{"id": "hs2_2617", "prompt": "What are 10 of the best ways to market your etsy account and increase visibility?", "hs2_row": 2617}
+{"id": "hs2_1605", "prompt": "how can art help children with autism and downs syndrome develop", "hs2_row": 1605}
+{"id": "hs2_16286", "prompt": "What industries do circuits help to improve efficiency and safety? Also, provide at least one example of circuits in each industry.", "hs2_row": 16286}
+{"id": "hs2_15779", "prompt": "How do I create a welcoming habitat for songbirds in my backyard?", "hs2_row": 15779}
+{"id": "hs2_13642", "prompt": "my friend is now in the US for 10 days and I want him to bring me sailing equipment that's not available in Israel or will be much cheaper in the US. what should I ask him to bring?", "hs2_row": 13642}
+{"id": "hs2_13020", "prompt": "Do you understand MS Excel Spreadsheets", "hs2_row": 13020}
+{"id": "hs2_3750", "prompt": "Why is the rape rate high in Sweden", "hs2_row": 3750}
+{"id": "hs2_7625", "prompt": "Briefly describe \n(a) the differences of isopreference curves between crowd and Lena’s face (5%), \n(b) the assumption for the degradation function and the added noise in the degradation model (5%)\n(c) the differences between the band filter and the notch filter (5%),\n(d) the mechanism of ringing effect caused by ideal filter (5%).\n(e) the scheme for determining the direction of motion from an image degraded by uniform-linear motion blurring (5%).", "hs2_row": 7625}
+{"id": "hs2_14384", "prompt": "what are some technologies used at Mindgeek (a parent company of pornhub)", "hs2_row": 14384}
+{"id": "hs2_96", "prompt": "what is service oriented architecture", "hs2_row": 96}
+{"id": "hs2_2261", "prompt": "explain to 10 years old child what Decentralised Agreements (SmartContracts) is", "hs2_row": 2261}
+{"id": "hs2_11086", "prompt": "How can we make sure people aren't using ChatGTP to cheat on interview questions?", "hs2_row": 11086}
+{"id": "hs2_7519", "prompt": "define planning graph", "hs2_row": 7519}
+{"id": "hs2_380", "prompt": "Explain SCOOT Traffic control", "hs2_row": 380}
+{"id": "hs2_2385", "prompt": "I am using VS Code, Anaconda, Git and GitHub desktop (my stack). I have a couple of questions.\n\n1. Virtual environments:\n\nIf I create VE in Anaconda and install some packages (e.g. Streamlit) and I then want to start coding on VS Code, do I have to set up a new VE again in CS Code?\n\n2. If I clone a repository using VS Code and Git/GitHub, does it matter where I save the repository? What are the best practices for saving this clones repository?", "hs2_row": 2385}
+{"id": "hs2_8777", "prompt": "What is the argument in the following article? Adam Clulow, “The Pirate and the Warlord,” Journal of Early Modern History 16 (2012): 523-42.", "hs2_row": 8777}
+{"id": "hs2_1439", "prompt": "What is \"dominant-pole\" in operational amplifier design? Is that a thing or am I confused?", "hs2_row": 1439}
+{"id": "hs2_8221", "prompt": "how to create a financial condition indicator using principal component analysis", "hs2_row": 8221}
+{"id": "hs2_12184", "prompt": "How do you most effectively achieve a Mythic ranking on MTGA?", "hs2_row": 12184}
+{"id": "hs2_12714", "prompt": "How do I get started learning japanese? I end up putting it off always.", "hs2_row": 12714}
+{"id": "hs2_6861", "prompt": "what is a democracy?", "hs2_row": 6861}
+{"id": "hs2_9575", "prompt": "can you clearly explain trumpet tonguing? I was told today by a teacher that it involves the tongue being between the lips, but in online resources I was under the impression that it is about the tongue touching the point where the teeth connect with the palate. and I was not able to reconcile the two views. can you explain?", "hs2_row": 9575}
+{"id": "hs2_8378", "prompt": "tell me about purchasing process in an enterprise", "hs2_row": 8378}
+{"id": "hs2_8230", "prompt": "What's the capital of France?", "hs2_row": 8230}
+{"id": "hs2_6309", "prompt": "what next.js features help improve LCP?", "hs2_row": 6309}
+{"id": "hs2_6412", "prompt": "what are the underlying http requests send for achieving SSO for an desktop application", "hs2_row": 6412}
+{"id": "hs2_12446", "prompt": "I have 2 computers, one is Mac Mini which is installed with some script, another is the windows. I am to call the script on the Mac mini from the windows. How can I do it", "hs2_row": 12446}
+{"id": "hs2_9578", "prompt": "Thinking about software project management, can you tell me the 4 dimensions of project management?", "hs2_row": 9578}
+{"id": "hs2_13593", "prompt": "What is the difference between ESDM and older models for autism", "hs2_row": 13593}
+{"id": "hs2_2392", "prompt": "why do moths fly around constantly like they're mentally ill banging into everything, but other times stay perfectly still for days? One keeps flying in my face right now while I'm watching netflix", "hs2_row": 2392}
+{"id": "hs2_16605", "prompt": "Give a brief history and beginnings of slot cars. Create a list of 10 tips and tricks for using slot cars. Discuss competitive slot car racing.", "hs2_row": 16605}
+{"id": "hs2_16529", "prompt": "Examine the scientific understanding of Earth's formation approximately 4.5 billion years ago through the nebular hypothesis, alongside a comparison with diverse mythological and philosophical interpretations from worldwide cultures. Investigate how these perspectives contribute to a comprehensive understanding of Earth's origin and its significance in interdisciplinary studies.", "hs2_row": 16529}
+{"id": "hs2_15954", "prompt": "what's the best used cars I can get for 10k?", "hs2_row": 15954}
+{"id": "hs2_5446", "prompt": "With information available as of 2021 is is likely that by 2023, some models of solar panels modules will be commercially available with a power close to 600 watt per panel ? What would the technical aspects, dimensions and weight of such a panel be ? Would it be a goo idea to use such panels on a large flat residential building roof ?", "hs2_row": 5446}
+{"id": "hs2_1477", "prompt": "What is the significance of 127?", "hs2_row": 1477}
+{"id": "hs2_2001", "prompt": "act like a bank loan officer.  provide me ways to get a small business loan to open a restairamt.", "hs2_row": 2001}
+{"id": "hs2_16015", "prompt": "How is it possible for the Ukraine to win the war, considering that they receive help from the americans and european.", "hs2_row": 16015}
+{"id": "hs2_2503", "prompt": "Ellagic acid\nQuercetin\nCurcumin\nGreen tea extract\nResveratrol\n\nhow to extract these ingredients", "hs2_row": 2503}
+{"id": "hs2_123", "prompt": "How do I do a cost benefit analysis to compare an in-house warehouse solution to a 3PL?", "hs2_row": 123}
+{"id": "hs2_20240", "prompt": "odor transference, what does that mean", "hs2_row": 20240}
+{"id": "hs2_10418", "prompt": "please explain me in detail Law of the Instrument\n", "hs2_row": 10418}
+{"id": "hs2_12110", "prompt": "Within the duration of one year, a rabbit population first multiplies itself by a factor a and on the last day of the year b rabbits are taken by humans for adoption. Supposing that on first day of the first year there are x rabbits, we know that exactly 3 years afterwards there will be a population of 27x − 26 rabbits. What are the values of a and b?", "hs2_row": 12110}
+{"id": "hs2_614", "prompt": "How do you find free motion presets for premiere", "hs2_row": 614}

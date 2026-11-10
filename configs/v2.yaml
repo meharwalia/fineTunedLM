@@ -1,0 +1,15 @@
+seed: 0
+device: auto
+policy:   {name: HuggingFaceTB/SmolLM2-135M-Instruct, max_prompt_tokens: 320, max_new_tokens: 256, temperature: 1.0, top_p: 1.0}   # on-policy sampling (REINFORCE + KL estimator assume samples from pi)
+reward:   {base_model: answerdotai/ModernBERT-base, checkpoint: checkpoints/reward_model, max_length: 2048, normalize: true}
+data:     {dir: data, n_rm_pool: 500, n_spare: 50, n_hardneg: 100, n_rl_train: 2000, n_eval: 200, n_val_prompts: 50,
+           max_prompt_tokens: 300, max_original_tokens: 768}
+reward_training: {lr: 2.0e-5, epochs: 3, batch_size: 8, grad_accum: 2, gradient_checkpointing: true, weight_decay: 0.01}
+rl:       {run_name: null, steps: 300, batch_size: 8, grad_accum: 2, lr: 1.0e-5, beta_kl: 0.1, grad_clip: 1.0,
+           use_baseline: true, baseline_ema: 0.9, normalize_advantages: true, logprob_micro_batch: 2,
+           log_every: 1, sample_every: 10, save_steps: [150], max_kl: 15.0, max_kl_window: 20}
+eval:     {greedy: true, max_new_tokens: 1024, repetition_penalty: 1.1, out_dir: results}
+serving:  {base_model: HuggingFaceTB/SmolLM2-135M-Instruct, tuned_path: checkpoints/rlhf_final,
+           reward_path: checkpoints/reward_model, default_max_new_tokens: 1024, max_new_tokens_limit: 2048,
+           system_prompts: {base: "You are a general purpose model, answer casually in a friendly and creative way",
+                            tuned: "You are a model tuned specifically for answering technical questions, answer with ADS-STE 100 standards"}}

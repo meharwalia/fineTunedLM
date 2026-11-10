@@ -1,0 +1,51 @@
+{
+  "checkpoint": "checkpoints/reward_model",
+  "n": 40,
+  "scores": {
+    "original (fluent, free-form)": {
+      "mean": -0.575,
+      "min": -1.22,
+      "max": 1.085
+    },
+    "STE rewrite": {
+      "mean": 0.695,
+      "min": -0.943,
+      "max": 1.822
+    },
+    "STE words shuffled": {
+      "mean": -1.055,
+      "min": -1.315,
+      "max": -0.277
+    },
+    "word salad": {
+      "mean": -1.233,
+      "min": -1.374,
+      "max": -0.578
+    },
+    "symbol gibberish": {
+      "mean": -0.846,
+      "min": -1.228,
+      "max": -0.203
+    },
+    "one line repeated 40x": {
+      "mean": -0.918,
+      "min": -1.192,
+      "max": -0.662
+    },
+    "off-topic short steps": {
+      "mean": -0.345,
+      "min": -1.1,
+      "max": 0.613
+    },
+    "STE answer to another question": {
+      "mean": -0.75,
+      "min": -1.302,
+      "max": 0.384
+    },
+    "bare '.'": {
+      "mean": -0.705,
+      "min": -1.222,
+      "max": 0.586
+    }
+  }
+}

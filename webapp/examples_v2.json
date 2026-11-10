@@ -1,0 +1,27 @@
+[
+  {
+    "id": "custom_fizzbuzz",
+    "question": "Solve the FizzBuzz problem in Python.",
+    "label": "Solve FizzBuzz in Python"
+  },
+  {
+    "id": "custom_oauth",
+    "question": "System design: OAuth with Google for sign-up and login.",
+    "label": "System design: Google OAuth sign-up and login"
+  },
+  {
+    "id": "custom_sql",
+    "question": "Help me debug performance issues in my SQL database.",
+    "label": "Debug SQL database performance"
+  },
+  {
+    "id": "custom_bs",
+    "question": "What is binary search?",
+    "label": "What is binary search?"
+  },
+  {
+    "id": "custom_rl",
+    "question": "Explain reinforcement learning conceptually.",
+    "label": "Explain reinforcement learning"
+  }
+]

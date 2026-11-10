@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "minirlhf"
+version = "0.1.0"
+description = "Mini-RLHF: REINFORCE fine-tuning of a small LLM with a learned reward model"
+requires-python = ">=3.11"
+dependencies = ["torch", "transformers", "datasets", "pyyaml", "matplotlib", "tqdm"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: tests that load the real small model (downloads weights)"]

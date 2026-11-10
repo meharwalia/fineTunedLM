@@ -1,0 +1,12 @@
+torch>=2.15
+transformers>=5.22
+datasets>=5.1
+accelerate>=1.15
+pyyaml>=6.0
+numpy>=2.4
+matplotlib>=3.11
+fastapi>=0.162
+uvicorn>=0.54
+httpx>=0.28
+pydantic>=2.14
+pytest>=9.0

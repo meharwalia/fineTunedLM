@@ -1,0 +1,20 @@
+{
+  "n": 200,
+  "finish_rate": 0.83,
+  "num_tokens_mean": 421.52,
+  "distinct2": 0.5750275213819968,
+  "ste_score_mean": 88.125,
+  "pct_passes_80": 74.0,
+  "avg_sentence_words_mean": 10.804400000000003,
+  "pct_passive_mean": 6.781500000000001,
+  "list_items_mean": 20.57,
+  "pct_has_list": 87.5,
+  "filler_phrases_mean": 0.185,
+  "complex_words_mean": 0.85,
+  "vague_terms_mean": 0.615,
+  "flesch_mean": 53.65349999999999,
+  "words_mean": 195.54,
+  "rm_score_mean": -0.020802487887558528,
+  "rm_score_std": 0.6939126970840693,
+  "kl_vs_base": 20.81812881708145
+}

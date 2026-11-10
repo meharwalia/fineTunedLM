@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ste_rlhf"
+version = "0.1.0"
+description = "RLHF (REINFORCE) that teaches a small LLM to write Simplified Technical English"
+requires-python = ">=3.11"
+dependencies = ["torch", "transformers", "datasets", "accelerate", "pyyaml", "numpy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: tests that load real models (cached weights); skip with -m 'not slow'"]

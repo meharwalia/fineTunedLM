@@ -1,0 +1,15 @@
+seed: 0
+device: auto
+policy:   {name: HuggingFaceTB/SmolLM2-135M-Instruct, max_prompt_tokens: 128, max_new_tokens: 48, temperature: 0.9, top_p: 0.95}
+reward:   {type: heuristic, base_model: distilbert-base-uncased, checkpoint: checkpoints/reward_model, max_length: 384, normalize: true}
+data:     {prompts_dir: data/prompts, candidates_path: data/candidates/candidates.jsonl, prefs_dir: data/prefs,
+           n_train_prompts: 2000, n_eval_prompts: 200, hh_rlhf_n: 3000, val_fraction: 0.1,
+           mix: {human: 1.0, rule: 1.0, hh-rlhf: 1.0}}
+reward_training: {lr: 3.0e-5, epochs: 2, batch_size: 16, weight_decay: 0.01}
+rl:       {run_name: null, steps: 300, batch_size: 16, lr: 1.0e-5, beta_kl: 0.05, grad_clip: 1.0,
+           use_baseline: true, baseline_ema: 0.9, normalize_advantages: true,
+           log_every: 1, sample_every: 10, save_every: 50,
+           max_kl: 15.0, max_kl_window: 20}   # early-stop if mean KL over the window exceeds max_kl (null = off)
+eval:     {greedy: true, max_new_tokens: 64, repetition_penalty: 1.1, out_dir: results}
+serving:  {base_model: HuggingFaceTB/SmolLM2-135M-Instruct, tuned_path: checkpoints/rlhf_final,
+           reward_path: checkpoints/reward_model}
